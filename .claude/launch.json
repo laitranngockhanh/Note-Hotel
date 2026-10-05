@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "fe-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "E:\\project\\Fe", "run", "dev"],
+      "port": 5173
+    },
+    {
+      "name": "be-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "E:\\project\\Be", "run", "dev"],
+      "port": 3000
+    },
+    {
+      "name": "fe-try",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "E:\\project\\Fe", "run", "dev:try"],
+      "port": 5174
+    },
+    {
+      "name": "be-try",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "E:\\project\\Be", "run", "dev:try"],
+      "port": 3100
+    }
+  ]
+}
